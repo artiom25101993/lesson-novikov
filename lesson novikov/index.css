@@ -1,48 +1,49 @@
- @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=IBM+Plex+Mono:wght@400;600;700&family=Open+Sans:ital,wght@0,500;0,700;1,300&family=Roboto&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=IBM+Plex+Mono:wght@400;600;700&display=swap');
 
-*{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    padding: 0;
+main{
+    width: fit-content;
+    height: fit-content;
+    margin: calc 50vh - 681.38px/2 auto 0;
 }
-body{
-    padding: 0 85px;
-    display: table-cell;
-    vertical-align: middle;
-    height: 100vh;
-}
-div,section{width: 50%;
-    display: table-cell;
-    vertical-align: middle;
+h2 { text-align: center}
+hr{height: 5px;
+border: 5px;
+background-color: 
+#EC7979;}
+.text{
+text-align: center;
+color: #86878B;}
+article {
+    display: inline-block;
+    vertical-align: top;
     box-sizing: border-box;
-    margin-left: 170px;
-    margin-right: 170px;
-}
-
-h3{
-    font-size: 30px;
-    margin-bottom: 27px;
-}
-
-p{
-    font-size: 18px;
-    width: 570px;
-    margin-bottom: 27px;
-}
-
-button{
-    width: 270px;
-    height: 58px;
-    color:#FFFFFF;
-   background-color:  #EC7979;
-   position: absolute;
-}
-.Download{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-font-size: 18px;
-line-height: 25px;
-display: flex;
-  
-} 
+    height: 100%;}
+    
+article div {
+   position: relative;
+   text-align: center;
+    width: 490px;
+    height: fit-content;
+    font-size: 20px;
+    line-height: 19px;
+    padding: 10px 40px 20px 15px;
+    height: 10%;
+    box-sizing: border-box;
+ }
+    h4 {
+        text-align: center;
+        font: weight 10%;
+        font-size: 24px;
+        line-height: 33px;
+        padding: 33,5px 0;
+    }
+    p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
